@@ -1,4 +1,4 @@
-import { Bread } from '@chlebjs/core';
+import { Bread } from 'chleb';
 import App from './components/App.js';
 
 new Bread({ app: App })
