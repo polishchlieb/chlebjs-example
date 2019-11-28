@@ -1,26 +1,17 @@
 import { Bread, Component } from 'chleb';
 
-const names = ['Vadim', 'Dmitri', 'Boris', 'Artyom', 'Aleksandr', 'Iwan', 'Sergey'];
+import Circle from './Circle';
+import RightTriangle from './RightTriangle';
+import Rectangle from './Rectangle';
 
 export default class App extends Component {
-    data = {
-        greeting: ''
-    };
-
     render() {
         return (
             <div>
-                <h1>{this.greeting}</h1>
-                <button onclick={this.randomize}>blyat that's not my name</button>
-                <br/><br/>
-                <a href="https://discord.gg/BsFhmWD">breadoggos here</a>
+                <RightTriangle angle={45} hypotenuse={500} margin={20}></RightTriangle>
+                <Circle radius={200} margin={100}></Circle>
+                <Rectangle a={500} b={200} margin={200}></Rectangle>
             </div>
         );
     }
-
-    randomize() {
-        this.greeting = 'Hello ' + names[Math.floor(Math.random() * names.length)] + '!';
-    }
-
-    ready = this.randomize;
 }
