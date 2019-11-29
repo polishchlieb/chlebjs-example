@@ -15,7 +15,7 @@ export default class Circle extends Component {
                     width: `${radius * 2}px`,
                     height: `${radius * 2}px`,
                     left: `${margin}px`,
-                    top: `${margin}px`
+                    bottom: `${margin}px`
                 }
             }></div>
         );
