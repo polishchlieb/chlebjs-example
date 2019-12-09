@@ -1,4 +1,4 @@
-import { Component } from 'chleb';
+import { Bread, Component } from 'chleb';
 
 export default class Point extends Component {
     render({ x, y, visibility }) {
