@@ -2,7 +2,7 @@
   "name": "chlebjs-example",
   "version": "2.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.html",
   "scripts": {
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html"
