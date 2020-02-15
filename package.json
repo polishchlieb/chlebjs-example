@@ -1,27 +1,29 @@
 {
   "name": "chlebjs-example",
-  "version": "1.0.1",
-  "description": "simple chlebjs example",
+  "version": "2.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html",
-    "start": "npm run build && node index.js"
+    "build": "parcel build src/index.html"
   },
-  "keywords": [
-    "chlebjs",
-    "example"
-  ],
-  "author": "chlebek",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chlebjs/chlebjs-example.git"
+  },
+  "keywords": [],
+  "author": "chleb",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chlebjs/chlebjs-example/issues"
+  },
+  "homepage": "https://github.com/chlebjs/chlebjs-example#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "chleb": "^4.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.7.4",
-    "@babel/plugin-proposal-class-properties": "^7.7.4",
-    "@babel/plugin-transform-react-jsx": "^7.7.4",
-    "chleb": "^3.0.3-components",
-    "parcel-bundler": "^1.12.4"
+    "@babel/core": "^7.8.4",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-transform-react-jsx": "^7.8.3"
   }
 }
